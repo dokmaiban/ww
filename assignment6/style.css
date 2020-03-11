@@ -1,0 +1,12 @@
+body{
+    background-color: thistle;
+}
+input{
+    margin-top: 20px;
+}
+legend{
+    font-size: 30px;
+}
+form{
+    background-color: #F1948A;
+}
