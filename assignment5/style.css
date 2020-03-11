@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #777777;
+}
+.all{
+    border: 2px solid black;
+    width: 800px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding: 50px;
+    background-color: teal;
+}
+hr{
+    color: black;
+}
+#post1{
+    height: 50px;
+    background-color: #555555;
+    border: 2px solid #222222;
+}
+#reply1{
+    height: 50px;
+    background-color: #555555;
+    border: 2px solid #222222;
+}
+#reply2{
+    height: 50px;
+    background-color: #555555;
+    border: 2px solid #222222;
+}
+textarea{
+    background-color: #555555;
+}
+button{
+    background-color: #555555;
+    padding: 10px;
+}
