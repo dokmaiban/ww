@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: ivory;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #1B2631;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 777;
+}
+.navbar{
+    height: 80px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.logo{
+    width: 300px;
+    font-size: 35px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 26px;
+    padding: 20px;
+    margin-left: 20px;
+}
+li a:hover{
+    background-color: #566573;
+}
+#home{
+    background-color: #34495E ;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+.profile{
+    text-align: center;
+}
+.profile img {
+    width: 300px;
+    height: 250px;
+    border-radius: 80px;
+    margin-top: 80px;
+}
+.textprofile{
+    margin-top: 40px;
+}
+#name{
+    font-size: 40px;
+}
+.textprofile h2{
+    font-size: 28px;
+}
+#about{
+    background-color: #2C3E50  ;
+}
+.textabout{
+    display: flex;
+    justify-content: space-around;
+
+}
+.boxtextabout{
+    width: 45%;
+    text-align: center;
+}
+.textabout .boxtextabout img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.textabout .boxtextabout p{
+    font-size: 32px;
+}
+.skill{
+    width: 45%;
+}
+.skill h2{
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+.skillbox{
+    width: 100%;
+}
+.skillbox p {
+    margin-top: 13px;
+    font-size: 18px;
+}
+.skillbox p:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top : -32px;
+}
+.skill_bg{
+    background-color: #262626;
+    padding: 5px;
+    border: 1px solid #7DCEA0;
+    border-radius: 3px;
+    margin: 0;
+}
+.skill_level1{
+    background-color: #0fffb7;
+    width: 70%;
+    height: 10px;
+}
+.skill_level2{
+    background-color: #0fffb7;
+    width: 50%;
+    height: 10px;
+}
+.skill_level3{
+    background-color: #0fffb7;
+    width: 20%;
+    height: 10px;
+}
+.skill_level4{
+    background-color: #0fffb7;
+    width: 80%;
+    height: 10px;
+}
+.skill_level5{
+    background-color: #0fffb7;
+    width: 30%;
+    height: 10px;
+}
+.skill_level6{
+    background-color: #0fffb7;
+    width: 100%;
+    height: 10px;
+}
+.hobby{
+    margin-top: 100px;
+}
+.hobby .hobbyheader{
+    text-align: center;
+    font-size: 35px;
+}
+.hobbyinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hobbybox{
+    margin-top: 80px;
+    text-align: center;
+    width: 220px;
+}
+.hobbybox p{
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.hobbybox img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 70px;
+}
+.interests{
+    margin-top: 100px;
+    text-align: center;
+}
+.interestsheader u{
+    text-align: center;
+    font-size: 35px;
+}
+.interestinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.interestbox{
+    width : 35%;
+    text-align: center;
+    margin-top: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.interestbox p{
+    font-size: 26px;
+    margin-top: 15px;
+}
+.interestbox img{
+    width: 200px;
+    height: 200px;
+}
+#port{
+    background-color: #34495E;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.portheader{
+    text-align: center;
+    font-size: 36px;
+}
+.portfolio h2{
+    text-align: left;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.portinfo{
+    margin-top :50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portbox{
+    margin-top: 20px;
+    width: 40%;
+}
+.portbox-ux img{
+    max-width: 100%;
+    height: 300px;
+    margin-left: 10px;
+}
+.portbox-ux:hover img{
+    transform: scale(1.06);
+}
+
+.resume{
+    width: 100%;
+    text-align: center;
+}
+.resume img{
+    width: 50%;
+    margin-top: 30px;
+}
+.portbox img{
+   max-width: 100%;
+    height: 320px;
+}
+.portbox:hover img{
+    transform: scale(1.06);
+}
+.detailbox{
+    position: absolute;
+    top: -250px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+}
+.portbox:hover .detailbox{
+    position: relative;
+}
+#ref{
+    background-color: #34495E;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: #1B2631;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-info img{
+    width: 25px;
+    height: 25px;
+}
+.contact-info li{
+    list-style: none;
+    font-size: 28px;
+}
+.contactbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width : 768px){
+    .menu{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        background-color: #2471A3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu li a{
+        font-size: 20px;
+        margin-right: 20px ;
+        padding: 0;
+    }
+    .textabout{
+        display: inline-block;
+        text-align: center;
+    }
+    .boxtextabout{
+        width: 100%;
+    }
+    .textabout .boxtextabout img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .skill{
+        width: 90%;
+    }
+    .skill p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .textabout p {
+        width: 100%;
+    }
+    .textabout img{
+        width: 200px;
+        height: 200px;
+    }
+    .interestbox{
+        width : 90%;
+    }
+    .portbox{
+        margin-top: 20px;
+        text-align: center;
+        width: 260px;
+    }
+    .portbox img{
+        width: 250px;
+        height: 150px;
+    }
+    .detailbox{
+        top: -120px;
+        font-size: 16px;
+    }
+}
